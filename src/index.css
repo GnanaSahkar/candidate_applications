@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* index.css */
+
+/* Set background color to white */
+body {
+  background-color: #fff;
+}
+
+/* Apply box shadow to job posts */
+.job-card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  margin-bottom: 20px; /* Add some space between job posts */
+}
+
+/* Style the apply button */
+.apply-button {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.apply-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
